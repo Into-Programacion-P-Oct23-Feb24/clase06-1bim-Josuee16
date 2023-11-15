@@ -10,13 +10,15 @@ package manejocadenas;
  * @author reroes
  */
 public class EjemploCadenas {
+
     public static void main(String[] args) {
         String ciudad = "loJa";
         ciudad = ciudad.toUpperCase();
         System.out.printf("%s\n", ciudad.toLowerCase());
+        //El toLoweCase transforma una variable cadena a letras minusculas
         System.out.printf("%s\n", ciudad.toUpperCase());
+        //el toUpperCase transforma una variable cadena a letras mayusculas
         System.out.printf("%s\n", ciudad);
-        
-        
+
     }
 }
